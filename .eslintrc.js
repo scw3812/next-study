@@ -13,5 +13,10 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['plugin:@typescript-eslint/recommended', 'next', 'next/core-web-vitals', 'prettier'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'next',
+    'next/core-web-vitals',
+    'plugin:prettier/recommended',
+  ],
 };

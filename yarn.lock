@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"-@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/-/-/--0.0.1.tgz#db6db7cd866142880dd03e5b8781d1b4fac0e5bd"
+  integrity sha512-3HfneK3DGAm05fpyj20sT3apkNcvPpCuccOThOPdzz8sY7GgQGe0l93XH9bt+YzibcTIgUAIMoyVJI740RtgyQ==
+
 "@babel/runtime-corejs3@^7.10.2":
   version "7.19.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.19.4.tgz#870dbfd9685b3dad5aeb2d00841bb8b6192e3095"
@@ -300,6 +305,11 @@
   dependencies:
     "@typescript-eslint/types" "5.40.1"
     eslint-visitor-keys "^3.3.0"
+
+D@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/D/-/D-1.0.0.tgz#c348a4e034f72847be51206fc530fc089e9cc2a9"
+  integrity sha512-nQvrCBu7K2pSSEtIM0EEF03FVjcczCXInMt3moLNFbjlWx6bZrX72uT6/1uAXDbnzGUAx9gTyDiQ+vrFi663oA==
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
@@ -2060,6 +2070,18 @@ synckit@^0.8.3:
   dependencies:
     "@pkgr/utils" "^2.3.1"
     tslib "^2.4.0"
+
+tailwind-merge@^1.2.0:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/tailwind-merge/-/tailwind-merge-1.6.2.tgz#e75ff2fd9901d4f9bad630e7ba2cc65b99441435"
+  integrity sha512-/JbgwDwsI8F4aryXAcQ6tVOZvI/YyZqPqdkG/Dj/8XZq8JDp64XxZCIDbyp7/iOpIfWFkF8swEwjXQEQkAvJNw==
+
+tailwind-styled-components@2.1.7:
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/tailwind-styled-components/-/tailwind-styled-components-2.1.7.tgz#c314249a4fda76441c9be5205db1e29573574c5a"
+  integrity sha512-L20oQlwWM+kbYHIrwvvMQ0HHqt1Z/tInnO/Q9zM0IV/vqUxSIcLAmhMwbbiZmyXTdAVz84N4s1GtIyGODq80Pw==
+  dependencies:
+    tailwind-merge "^1.2.0"
 
 tailwindcss@^3.1.8:
   version "3.1.8"
