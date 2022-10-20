@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders a home text 1`] = `
+<div>
+  <div
+    class="m-5 p-5 border border-solid border-gray-300"
+  >
+    <div>
+      <button
+        class="mr-4"
+      >
+        Home
+      </button>
+      <button
+        class="mr-4"
+      >
+        About
+      </button>
+    </div>
+    <p>
+      Home
+    </p>
+  </div>
+</div>
+`;
