@@ -1,14 +1,12 @@
 import type { NextPage } from 'next';
-import tw from 'tailwind-styled-components';
-
-const Container = tw.div`
-  flex
-  flex-col
-  bg-red-50
-`;
+import Layout from 'src/components/Layout';
 
 const About: NextPage = () => {
-  return <Container>about</Container>;
+  return (
+    <Layout>
+      <p>About</p>
+    </Layout>
+  );
 };
 
 export default About;
