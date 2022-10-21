@@ -6,7 +6,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = (props) => {
   return (
     <LayoutDiv>
       <Header />
-      {props.children}
+      <main>{props.children}</main>
     </LayoutDiv>
   );
 };
